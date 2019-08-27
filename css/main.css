@@ -664,9 +664,9 @@ td, th {
   background: -ms-linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
   background: linear-gradient(90deg, #39cfca 0%, #3279bb 100%); */
 
-  /* background-color: red; */
+  background-color: red;
 
-  background-image: radial-gradient(circle, #ff0808, #df0c0f, #c01013, #a11214, #831313);
+  /* background-image: radial-gradient(circle, #ff0808, #df0c0f, #c01013, #a11214, #831313); */
 
 
 }
