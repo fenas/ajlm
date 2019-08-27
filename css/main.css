@@ -647,10 +647,10 @@ td, th {
     #back-top {
       right: 5px; } }
   #back-top a {
-    background: url(../img/rocket.png) no-repeat;
+    background: url(../img/scroll.png) no-repeat;
     background-size: 95% 80%;
-    width: 50px;
-    height: 116px;
+    width: 80px;
+    height: 100px;
     display: block; }
     @media (max-width: 768px) {
       #back-top a {
@@ -658,11 +658,18 @@ td, th {
         height: 74px; } }
 
 .p1-gradient-bg, .primary-btn, .primary-btn.white:hover, .banner-content .input-wrap .search-btn, .courses-list li:hover, .testimonials-area .owl-thumb-item.active .overlay-grad, .testimonials-area .owl-thumb-item .overlay-grad:hover, .top-category-widget-area .single-cat-widget:hover .overlay-bg, .post-content-area .single-post .primary-btn:hover, .blog-pagination .page-item.active .page-link, .blog-pagination .page-link:hover, .widget-wrap .newsletter-widget .bbtns, .footer-area .single-footer-widget .click-btn, .footer-area .footer-bottom .footer-social a:hover {
-  background: -webkit-linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
+  /* background: -webkit-linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
   background: -moz-linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
   background: -o-linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
   background: -ms-linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
-  background: linear-gradient(90deg, #39cfca 0%, #3279bb 100%); }
+  background: linear-gradient(90deg, #39cfca 0%, #3279bb 100%); */
+
+  /* background-color: red; */
+
+  background-image: radial-gradient(circle, #ff0808, #df0c0f, #c01013, #a11214, #831313);
+
+
+}
 
 .p1-gradient-color {
   background: -webkit-linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
@@ -1539,21 +1546,23 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------------------------------------------------
 # Header
---------------------------------------------------------------*/
+------------------------------------- ///////////////////////////////////////////////// ------------------------------------------------------------------------------------------------------------*/
 #header {
-  padding: 20px 0;
+  padding: 10px 0;
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
   transition: all 0.5s;
-  z-index: 997; }
+  z-index: 997;
+background-color: white }
 
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+  background: white;
   transition: all 0.5s; }
   #header.header-scrolled .nav-menu li:hover > a, #header.header-scrolled .nav-menu > .menu-active > a {
-    color: #39cfca; }
+    color:grey;
+  }
 
 @media (max-width: 673px) {
   #logo {
@@ -1646,13 +1655,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 8px 0px 8px;
   text-decoration: none;
   display: inline-block;
-  color: #fff;
+  color: gray;
   font-size: 14px;
   text-transform: capitalize;
   outline: none; }
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
-  color: #222222; }
+  color: maroon }
 
 .nav-menu > li {
   margin-left: 10px; }
@@ -1682,10 +1691,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Mobile Nav Toggle */
 #mobile-nav-toggle {
+  /* margin-bottom: 50px; */
   position: fixed;
   right: 15px;
   z-index: 999;
-  top: 27px;
+  top: 18px;
   border: 0;
   background: none;
   font-size: 24px;
@@ -1781,16 +1791,30 @@ body.mobile-nav-active #mobile-nav {
 body.mobile-nav-active #mobile-nav-toggle {
   color: #fff; }
 
+
+  /* /// home banner ......................................................////////////////////////////////////////////................................................................ */
+
 .home-banner-area {
-  background: url(../img/header-bg.png) no-repeat top center;
-  background-size: cover; }
+  background: url(../img/yo.png) no-repeat top center;
+  /* opacity: .8; */
+  /* margin-top: 20px; */
+  /* margin-bottom: 90px; */
+  width: 100%;
+  background-size: cover;
+ }
   @media (max-width: 767.98px) {
+    .home-banner-area {
+      /* background: url(../img/AJLM.jpg) no-repeat top center; */
+      display: none;
+     
+     }
+
     .home-banner-area .fullscreen {
       height: 900px !important; } }
 
 .rocket-img {
   position: absolute;
-  bottom: -22px;
+  bottom: -90px;
   left: 50%;
   -webkit-transform: translate(-50%);
   -moz-transform: translate(-50%);
@@ -1872,9 +1896,22 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin: 0 auto; }
 
 .banner-area {
-  background: url(../img/banner-bg.png) no-repeat top center;
+  background: url(../img/aboutusajlm.jpg) no-repeat top center;
   background-size: cover;
   min-height: 512px; }
+
+  .noOpacity {
+opacity: 1;
+  }
+
+
+ .courses {
+  background: url(../img/coursesajlm.jpg) no-repeat top center;
+  background-size: cover;
+  min-height: 512px;
+  /* opacity: 0.6; */
+}
+
 
 @media (max-width: 991px) {
   .about-area .about-left {
@@ -2054,19 +2091,32 @@ body.mobile-nav-active #mobile-nav-toggle {
         opacity: .8; }
 
 .testi-slider {
-  margin: auto; }
+  margin: auto;
+}
+.testi-slider .item {
+  display: flex;
+  justify-content: center;
+}
   .testi-slider .testi-item {
-    text-align: center; }
+    text-align: center;
+  background-color: red;
+  color: white;
+  padding: 5px;
+  }
     .testi-slider .testi-item img {
       width: auto;
       margin: auto; }
 
 .testi-item {
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+width: 700px;
+
+}
   .testi-item h4 {
+    color: white;
     font-size: 21px;
     font-weight: 700;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 10px; }
   .testi-item .list {
     margin-bottom: 35px; }
@@ -2077,7 +2127,8 @@ body.mobile-nav-active #mobile-nav-toggle {
         font-size: 14px; }
   .testi-item p {
     max-width: 605px;
-    margin: auto; }
+    margin: auto;
+  padding: 5px; }
 
 .contact-page-area .map-wrap {
   margin-bottom: 120px; }
@@ -2743,7 +2794,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*  Footer Styles
 /* =================================== */
 .footer-area {
-  background: #283367; }
+  background: red;
+ }
   @media (max-width: 991px) {
     .footer-area .single-footer-widget {
       margin-bottom: 30px; } }
@@ -2763,7 +2815,8 @@ body.mobile-nav-active #mobile-nav-toggle {
       -moz-transition: all 0.3s ease 0s;
       -o-transition: all 0.3s ease 0s;
       transition: all 0.3s ease 0s;
-      color: #777777; }
+      /* color: #777777;  */
+    }
       .footer-area .single-footer-widget ul li a:hover {
         color: #fff; }
   .footer-area .single-footer-widget .form-wrap {
@@ -2791,7 +2844,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     .footer-area .single-footer-widget .click-btn span {
       font-weight: 500; }
   .footer-area .footer-bottom {
-    margin-top: 90px; }
+    margin-top: 50px; }
     @media (max-width: 991px) {
       .footer-area .footer-bottom {
         margin-top: 20px; } }
@@ -2809,7 +2862,7 @@ body.mobile-nav-active #mobile-nav-toggle {
           text-align: left;
           margin-top: 30px; } }
       .footer-area .footer-bottom .footer-social a {
-        background: #3e4876;
+        /* background: #3e4876; */
         margin-left: 5px;
         width: 40px;
         color: #fff;
