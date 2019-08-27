@@ -44,7 +44,9 @@
 
 body {
   color: #777777;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif;
+   */
+   font-family: font-family: 'Josefin Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.625em;
@@ -105,7 +107,9 @@ h4, h5, h6 {
   line-height: 1.2em !important;
   margin-bottom: 0;
   margin-top: 0;
-  font-weight: 600; }
+  font-weight: 600;
+/* font-family:'Indie Flower', cursive;  */
+}
 
 .h1, .h2, .h3,
 .h4, .h5, .h6 {
@@ -610,10 +614,18 @@ td, th {
   margin-right: 0; }
 
 .section-gap {
-  padding: 150px 0; }
+  padding: 80px 0; }
   @media (max-width: 991px) {
     .section-gap {
       padding: 40px 0; } }
+
+      .section-gap2 {
+        padding-bottom: 80px 
+      }
+        @media (max-width: 991px) {
+          .section-gap2 {
+            padding-bottom: 40px; } }
+
 
 .section-title {
   padding-bottom: 80px; }
@@ -1589,7 +1601,7 @@ background-color: white }
     font-size: 28px; }
 
   #header #logo img {
-    max-height: 40px; } }
+    max-height: 50px; } }
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -1655,8 +1667,9 @@ background-color: white }
   padding: 0 8px 0px 8px;
   text-decoration: none;
   display: inline-block;
-  color: gray;
-  font-size: 14px;
+  color: #57585A;
+  font-size: 16px;
+  font-weight: bold;
   text-transform: capitalize;
   outline: none; }
 
@@ -1904,7 +1917,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin: 0 auto; }
 
 .banner-area {
-  background: url(../img/aboutusajlm.jpg) no-repeat top center;
+  background: url(../img/yu.png) no-repeat top center;
   background-size: cover;
   min-height: 512px; }
 
@@ -1913,22 +1926,34 @@ opacity: 1;
   }
 
 
+  .contact {
+    background: url(../img/yu.png) no-repeat top center;
+    background-size: cover;
+    min-height: 512px;
+  }
+
+
  .courses {
-  background: url(../img/coursesajlm.jpg) no-repeat top center;
+  background: url(../img/cnt.png) no-repeat top center;
   background-size: cover;
   min-height: 512px;
   /* opacity: 0.6; */
 }
 
 @media (max-width: 767.98px) {
+  .contact {
+    background: url(../img/yu.png) no-repeat top center;
+    background-size: cover;
+    min-height: 512px;
+  }
   .courses {
-    background: url(../img/coursesajlm.jpg) no-repeat top center;
+    background: url(../img/cnt.png) no-repeat top center;
     background-size: cover;
     /* min-height: 512px; */
     /* opacity: 0.6; */
   }
   .banner-area {
-    background: url(../img/aboutusajlm.jpg) no-repeat top center;
+    background: url(../img/yi.png) no-repeat top center;
     background-size: cover;
     /* min-height: 512px; } */
    
@@ -1981,11 +2006,21 @@ opacity: 1;
     max-width: 615px;
     margin: 0 auto;
     margin-bottom: 40px; }
-  .about-content .box {
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff;
+  .link-nav .box {
+    border-top: 1px solid #57585A ;
+    border-bottom: 1px solid #57585A ;
     padding: 10px 18px;
-    display: inline-block; }
+    display: inline-block;
+     }
+
+     .link-nav .box h1 {
+        font-family: 'Indie Flower', cursive;
+      
+       }
+
+
+    
+
     @media (max-width: 767px) {
       .about-content .box {
         padding: 7px 15px; } }
@@ -2041,10 +2076,10 @@ opacity: 1;
   margin-right: 20px; }
 
 .feature-area {
-  padding: 150px 0 120px; }
+  padding: 50px 0 120px; }
   @media (max-width: 991px) {
     .feature-area {
-      padding: 80px 0px; } }
+      padding: 40px 0px; } }
 
 .feature-item {
   padding: 50px 40px;
@@ -2903,4 +2938,6 @@ width: 700px;
         transition: all 0.3s ease 0s; }
       }
 /*# sourceMappingURL=main.css.map */
-    
+    .align-self-center {
+      align-self: center !important;
+    }
