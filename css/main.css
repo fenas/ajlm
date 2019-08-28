@@ -1936,7 +1936,7 @@ opacity: 1;
 
  .courses {
   background: url(../img/cnt.png) no-repeat top center;
-  background-size: cover;
+  background-size: contain;
   min-height: 512px;
   /* opacity: 0.6; */
 }
