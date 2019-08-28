@@ -149,19 +149,19 @@ $(document).ready(function() {
   });
 
   // Header scroll class
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
-      $('#header').addClass('header-scrolled');
-      $('#back-top').fadeIn(500);
-    } else {
-      $('#header').removeClass('header-scrolled');
-      $('#back-top').fadeOut(500);
-    }
-  });
+  // $(window).scroll(function() {
+  //   if ($(this).scrollTop() > 100) {
+  //     $('#header').addClass('header-scrolled');
+  //     $('#back-top').fadeIn(500);
+  //   } else {
+  //     $('#header').removeClass('header-scrolled');
+  //     $('#back-top').fadeOut(500);
+  //   }
+  // });
 
   // Rocket Scroll
   $(window).scroll(function() {
-    if ($(this).scrollTop() > 10) {
+    if ($(this).scrollTop() > 50) {
       $('.rocket-img').addClass('go-top');
       $('#back-top').fadeIn(500);
     } else {

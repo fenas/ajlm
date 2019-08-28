@@ -651,6 +651,7 @@ td, th {
         display: none; } }
 
 #back-top {
+  display: none;
   position: fixed;
   right: 20px;
   bottom: 0px;
@@ -662,13 +663,13 @@ td, th {
   #back-top a {
     background: url(../img/scroll.png) no-repeat;
     background-size: 95% 80%;
-    width: 80px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     display: block; }
     @media (max-width: 768px) {
       #back-top a {
-        width: 60px;
-        height: 74px; } }
+        width: 40px;
+        height: 40px; } }
 
 .p1-gradient-bg, .primary-btn, .primary-btn.white:hover, .banner-content .input-wrap .search-btn, .courses-list li:hover, .testimonials-area .owl-thumb-item.active .overlay-grad, .testimonials-area .owl-thumb-item .overlay-grad:hover, .top-category-widget-area .single-cat-widget:hover .overlay-bg, .post-content-area .single-post .primary-btn:hover, .blog-pagination .page-item.active .page-link, .blog-pagination .page-link:hover, .widget-wrap .newsletter-widget .bbtns, .footer-area .single-footer-widget .click-btn, .footer-area .footer-bottom .footer-social a:hover {
   /* background: -webkit-linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
