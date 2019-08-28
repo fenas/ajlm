@@ -1949,8 +1949,9 @@ opacity: 1;
   }
   .courses {
     background: url(../img/cnt.png) no-repeat top center;
-    background-size: cover;
-    /* min-height: 512px; */
+    background-size: contain;
+    margin-top: 70px;
+    min-height: 200px;
     /* opacity: 0.6; */
   }
   .banner-area {
