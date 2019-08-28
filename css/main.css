@@ -1920,7 +1920,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin: 0 auto; }
 
 .banner-area {
-  background: url(../img/yu.png) no-repeat top center;
+  background: url(../img/yu.jpg) no-repeat top center;
   background-size: cover;
   min-height: 512px; }
 
@@ -1930,14 +1930,14 @@ opacity: 1;
 
 
   .contact {
-    background: url(../img/yu.png) no-repeat top center;
+    background: url(../img/yu.jpg) no-repeat top center;
     background-size: cover;
     min-height: 512px;
   }
 
 
  .courses {
-  background: url(../img/cnt.png) no-repeat top center;
+  background: url(../img/cnt.jpg) no-repeat top center;
   background-size: contain;
   min-height: 512px;
   /* opacity: 0.6; */
@@ -1945,19 +1945,19 @@ opacity: 1;
 
 @media (max-width: 767.98px) {
   .contact {
-    background: url(../img/yu.png) no-repeat top center;
+    background: url(../img/yu.jpg) no-repeat top center;
     background-size: cover;
     min-height: 512px;
   }
   .courses {
-    background: url(../img/cnt.png) no-repeat top center;
+    background: url(../img/cnt.jpg) no-repeat top center;
     background-size: contain;
     margin-top: 70px;
     min-height: 200px;
     /* opacity: 0.6; */
   }
   .banner-area {
-    background: url(../img/yu.png) no-repeat top center;
+    background: url(../img/yu.jpg) no-repeat top center;
     background-size: cover;
     /* min-height: 512px; } */
    

@@ -1,6 +1,6 @@
 <?php
-    $to = 'info@ajlm.in';
-    $firstname = $_POST["fname"];
+    $to = 'fenas.fnz@gmail.com';
+    $firstname = $_POST["name"];
     $email= $_POST["email"];
     $text= $_POST["message"];
     $phone= $_POST["phone"];
@@ -13,7 +13,7 @@
 
     $message ='<table style="width:100%">
         <tr>
-            <td>'.$firstname.'  '.$laststname.'</td>
+            <td>'.$firstname.'</td>
         </tr>
         <tr><td>Email: '.$email.'</td></tr>
         <tr><td>phone: '.$phone.'</td></tr>
